@@ -1,0 +1,46 @@
+body {
+    max-height: 1200px;
+}
+.icon-image {
+    width: 40px;
+    height: 40px;
+}
+.contaier-icon {
+    position: relative;
+}
+.count-products {
+    position: absolute;
+    top: 55%;
+    right: 0%;
+    
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+img {
+    max-height: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.container-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.items {
+    border-radius: 10px;
+}
+.items img {
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+}
+.items:hover{
+    box-shadow: 0 10px 20px rgb(0, 0, 0,20);
+}
